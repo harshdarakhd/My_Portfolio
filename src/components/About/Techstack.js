@@ -8,6 +8,8 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiPostgresql,
+  DiMysql,
 } from "react-icons/di";
 import {
   SiPytorch,
@@ -19,6 +21,12 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -26,27 +34,29 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
+      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
       </Col>
     </Row>
   );
