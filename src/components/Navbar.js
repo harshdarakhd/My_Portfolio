@@ -38,9 +38,12 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+        {/* <Navbar.Brand href="/" className="d-flex">
+          <h1 style={{ fontSize: "1.5rem", marginTop: "10px",color: "purple" }}>
+           <b> HARSH DARAK</b>
+          </h1>
+          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
+        {/* </Navbar.Brand> */}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -69,7 +72,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -80,7 +83,7 @@ function NavBar() {
                 />{" "}
                 Projects
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
