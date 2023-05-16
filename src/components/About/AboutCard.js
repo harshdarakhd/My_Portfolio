@@ -10,7 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">HARSH DARAK </span>
             from <span className="purple"> Pune, India.</span>
-            <br />I am pursuing MCA from MIT-WPU, Pune.
+            <br />I have a keen interest in learning Python<img src="https://img.icons8.com/color/48/000000/python.png" alt="python" width="40" height="40"/> 
+            <br/>and ReactJS<img src="https://img.icons8.com/?size=512&id=25Sjy8fKExYA&format=png" alt="react" width="40" height="40"/> 
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -28,7 +29,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Done is better than perfect!"{" "}
           </p>
           <footer className="blockquote-footer">Harsh</footer>
         </blockquote>

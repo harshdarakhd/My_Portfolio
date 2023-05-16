@@ -31,12 +31,13 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
+              {/* <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
-              />
+              /> */}
+              <iframe src="https://embed.lottiefiles.com/animation/63487" width='135%' height={'150%'}></iframe>
             </Col>
           </Row>
         </Container>

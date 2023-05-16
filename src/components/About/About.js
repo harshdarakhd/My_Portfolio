@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import myGif from "../../images/coding.gif";
 
 function About() {
   return (
@@ -28,10 +29,11 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "30px", paddingBottom: "130px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            {/* <img src={myGif}  width='100%' alt="about" className="img-fluid" /> */}
+            <iframe src="https://embed.lottiefiles.com/animation/95348"  width='120%' height={'120%'}></iframe>
           </Col>
         </Row>
         <h1 className="project-heading">

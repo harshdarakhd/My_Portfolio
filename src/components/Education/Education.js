@@ -16,6 +16,7 @@ function Education() {
       <Container>
         <h1 className="education-heading">
            <strong className="purple">MY EDUCATION DETAILS </strong>
+           {/* <iframe src="https://embed.lottiefiles.com/animation/73782" width='120%' height={'120%'}></iframe> */}
         </h1>
         <p style={{ color: "white" }}>
           {/* Here are a few projects I've worked on recently. */}
