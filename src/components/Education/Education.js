@@ -16,6 +16,7 @@ function Education() {
       <Container>
         <h1 className="education-heading">
            <strong className="purple">MY EDUCATION DETAILS </strong>
+           {/* <iframe src="https://embed.lottiefiles.com/animation/121114" width='120%' height={'120%'}></iframe> */}
            {/* <iframe src="https://embed.lottiefiles.com/animation/73782" width='120%' height={'120%'}></iframe> */}
         </h1>
         <p style={{ color: "white" }}>
@@ -33,10 +34,8 @@ function Education() {
 
           <Col md={3} className="education-card">
             <EducationCards
-              imgPath={bitsOfCode}
-              isBlog={false}
               title={<h1 style={{ margin: 0 }}><strong className="main-name"> 10th SSC </strong></h1>}
-              description={<h4 style={{ margin: 0, textAlign: "center" }}><br/>DE PAUL ENGLISH MEDIUM HIGH SCHOOL<br/>  <br/>June 2006- April 2016</h4>}
+              description={<h4 style={{ margin: 0, textAlign: "center" }}><br/>DE PAUL ENGLISH MEDIUM HIGH SCHOOL<br/><br/> SCORE = 80% <br/><br/>June 2006- April 2016</h4>}
             />
           </Col>
 
@@ -45,7 +44,7 @@ function Education() {
             <EducationCards
               title={<h1 style={{ margin: 0 }}><strong className="main-name"> 12th HSC </strong></h1>}
               description={<h4 style={{ margin: 0 ,textAlign: "center"}}><br/>ARTS, SCIENCE & COMMERCE COLLEGE
-              <br/> <br/>June 2016 - May 2018</h4>}
+              <br/><br/> <br/>SCORE = 68% <br/><br/>June 2016 - May 2018</h4>}
             />
           </Col>
 
@@ -53,7 +52,7 @@ function Education() {
             <EducationCards
               title={<h1 style={{ margin: 0 }}><strong className="main-name"> BBA-CA </strong></h1>}
               description={<h4 style={{ margin: 0, textAlign: "center" }}><br/>MIT-WORLD <br/>PEACE<br/> UNIVERSITY
-              <br/>  <br/>Sept 2018 - April 2021</h4>}
+              <br/><br/> <br/>SCORE = 77% <br/><br/>Sept 2018 - April 2021</h4>}
             />
           </Col>
 
@@ -61,7 +60,7 @@ function Education() {
             <EducationCards
               title={<h1 style={{ margin: 0 }}><strong className="main-name"> MCA </strong></h1>}
               description={<h4 style={{ margin: 0, textAlign: "center" }}><br/>MIT-WORLD<br/> PEACE<br/> UNIVERSITY
-              <br/><br/>Sept 2021 - June 2023</h4>}
+              <br/><br/><br/> SCORE = 90% <br/><br/>Sept 2021 - June 2023</h4>}
             />
           </Col>
 {/* 

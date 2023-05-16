@@ -6,7 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import myGif from "../../images/coding.gif";
+// import myGif from "../../images/coding.gif";
 
 function About() {
   return (
