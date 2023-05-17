@@ -35,7 +35,7 @@ function Education() {
           <Col md={3} className="education-card">
             <EducationCards
               title={<h1 style={{ margin: 0 }}><strong className="main-name"> 10th SSC </strong></h1>}
-              description={<h4 style={{ margin: 0, textAlign: "center" }}><br/>DE PAUL ENGLISH MEDIUM HIGH SCHOOL<br/><br/> SCORE = 80% <br/><br/>June 2006- April 2016</h4>}
+              description={<h4 style={{ margin: 0, textAlign: "center" }}><br/>DE PAUL ENGLISH MEDIUM HIGH SCHOOL<br/><br/><br/> SCORE = 80% <br/><br/>June 2006- April 2016</h4>}
             />
           </Col>
 
